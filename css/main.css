@@ -1,6 +1,10 @@
 #welcome{
 	color: yellow;
 	font-size: 30px;
-	font-family: sans-serif;
-	top:50px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+	font-family: 'sans-serif';
+	text-shadow: 0.5px 0.5px white;
+	padding-left: 10px;
+	
 	}
