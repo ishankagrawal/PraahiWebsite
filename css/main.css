@@ -1,10 +1,103 @@
-#welcome{
-	color: yellow;
-	font-size: 30px;
-	padding-top: 10px;
-	padding-bottom: 10px; 
-	font-family: 'sans-serif';
-	text-shadow: 0.5px 0.5px white;
-	padding-left: 10px;
-	
+
+
+	.split
+	{
+		height: 100vh;
+		width:50%;
+  
+  
+  
+ 
+
 	}
+	.container{
+		position:absolute;
+		
+
+		
+		
+		text-align: center;
+		color:white;
+		width: 50%;
+		background-color: rgba(0,0,0,0.5);
+		height:100%;
+		
+
+		
+	}
+	.l{
+		
+		opacity: 0%;
+		left:0;
+
+	}
+	.r{
+		
+		opacity: 0%;
+		right:0;
+	}
+
+	.center
+	{
+		pointer-events: none;
+		z-index: 1;
+		position:absolute;
+		top:20vh;
+		width:100%;
+		font-size: 120px;
+		text-align: center;
+		color: white;
+		font-family: Amatic SC,cursive;
+
+
+	}
+	.left
+	{
+		left:0;
+		background-image: url("../img/Arch.jpeg");
+		
+  		background-repeat: no-repeat;
+
+
+	}
+	.right
+	{
+		right:0;
+		background-image: url("../img/Graph.jpeg");
+		background-size: 50vw 100vh;
+		
+  		background-repeat: no-repeat;
+  
+		
+	}
+	.heading{
+		font-size: 30px;
+		position:relative;
+		top:80vh;
+		
+
+	}
+
+	hr{
+		position:relative;
+		top:82vh;
+		width: 5%;
+		height: 2px;
+		background-color:white;
+
+
+	}
+	.km{
+		position: relative;
+		border-color: white;
+		border-style: solid;
+		top:85vh;
+		width: 15%;
+		left:21.4vw;
+		border-width: 1px;
+	}
+	a{
+		color: white;
+	}
+
+	
