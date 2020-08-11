@@ -1,0 +1,36 @@
+*{
+	box-sizing: border-box;
+}
+.nav-bar
+{
+	position: relative;
+	z-index: 1;
+	width:100vw;
+	overflow: hidden;
+	color: white;
+	
+	padding:20px;
+	
+	font-size: 20px;
+	font-weight: 700;
+}
+.nav-bar .nav-item{
+	display: inline;
+	padding: 5px;
+	margin-left:30px;
+}
+.nav-bar .nav-list{
+	position: relative;
+	left: 10vw;
+
+
+}
+.nav-item:hover {
+	color: black;
+	background-color: white;
+
+}
+.test{
+	position: absolute;
+
+}

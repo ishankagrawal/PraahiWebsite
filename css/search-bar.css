@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+}
+body{
+  margin:0;
+  
+}
+.search-bar{
+	
+	overflow: hidden;
+  width: 100vw;
+  z-index: 1;
+  position: relative;
+
+}
+
+.search-bar img{
+  float: left;
+	position: relative;
+  left: 8vw;
+  display:inline;
+  margin: auto;
+
+overflow: hidden;
+  
+  width: 20vw;
+  height: 80px;
+
+}
+.search-bar .search-container{
+  position: relative;
+  left: 15vw;
+  top:1vh;
+  display:inline;
+  margin: auto;
+	padding: 20px;
+  overflow: hidden;
+
+}
+.search-bar input[type=text] {
+ 
+  padding: 10px;
+  width: 30vw;
+  overflow: hidden;
+  
+  
+  border: none;
+  font-size: 17px;
+}
+.search-bar  button {
+	position: relative;
+  right: 1vw;
+	overflow: hidden;
+ 
+  padding: 10px;
+  
+ 
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+#cart
+{
+  overflow: hidden;
+ 
+  background-color: transparent;
+  
+  float:left;
+  position: relative;
+  
+  bottom:3.5vh;
+  
+  font-size: 20px;
+  color: white;
+  float: right;
+  right:5vw;
+
+}
+#cart:hover{
+  overflow: hidden;
+  color:yellow;
+
+}

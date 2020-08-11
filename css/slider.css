@@ -1,0 +1,40 @@
+
+.slider{
+    width:100%;
+    z-index: -1;
+    box-sizing: content-box;
+    border: solid blue;
+    position : relative;
+    top: -20vh;
+    
+    
+
+}
+.slider img{
+    
+    
+    width:100%;
+       
+    position: absolute;
+ 
+
+}
+
+.slider img.show{
+    opacity:1;
+    left: 10px;
+    -webkit-transition:all 1.0s ease-in-out;
+    -moz-transition:all 1.0s ease-in-out;
+    -o-transition:all 1.0s ease-in-out;
+    transition:all 1.0s ease-in-out;
+    
+}
+
+.slider img.hide{
+    left:-1000px;
+    opacity: 0;
+    -webkit-transition:all 1.0s ease-in-out;
+    -moz-transition:all 1.0s ease-in-out;
+    -o-transition:all 1.0s ease-in-out;
+    transition:all 1.0s ease-in-out;
+}
